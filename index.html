@@ -1,1 +1,231 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123d30" />
+    <meta
+      name="description"
+      content="Descobre os sabores tradicionais de Cabo Verde com Delícias e Sabores de Fatu. Doces artesanais e produtos tradicionais, feitos com dedicação."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_CV" />
+    <meta property="og:title" content="Delícias e Sabores de Fatu — Sabores de Cabo Verde" />
+    <meta
+      property="og:description"
+      content="Produtos tradicionais e doces artesanais cabo-verdianos, feitos com amor e tradição."
+    />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=85" />
+    <title>Delícias e Sabores de Fatu — Sabores de Cabo Verde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+    <div class="announcement">
+      <span class="announcement__spark" aria-hidden="true">✳</span>
+      Sabores de Cabo Verde, preparados com carinho
+      <span class="announcement__spark" aria-hidden="true">✳</span>
+    </div>
 
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Delícias e Sabores de Fatu — início">
+          <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+          <span class="brand-name">Delícias <i>&amp;</i><br />Sabores de Fatu</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Abrir menu</span>
+          <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#tradicao">A nossa tradição</a>
+          <a href="#contactos">Contactos</a>
+        </nav>
+        <div class="header-actions">
+          <button class="cart-trigger" type="button" aria-label="Abrir carrinho, 0 artigos">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+            <span class="cart-count" aria-hidden="true">0</span>
+          </button>
+          <a class="button button--small button--gold header-buy" href="#produtos">Comprar agora <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="hero-orb hero-orb--one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Uma herança que se saboreia</p>
+            <h1>Os Sabores de Cabo Verde, <em>Feitos com Amor.</em></h1>
+            <p class="hero-lead">Descobre produtos tradicionais, doces artesanais e sabores naturais que preservam a nossa cultura e levam a tradição cabo-verdiana até à tua mesa.</p>
+            <div class="hero-actions">
+              <a class="button button--gold" href="#produtos">Explorar produtos <span aria-hidden="true">↗</span></a>
+              <a class="button button--outline-light" href="#encomendas"><span class="play-icon" aria-hidden="true">↗</span> Fazer encomenda</a>
+            </div>
+            <div class="hero-note"><span class="hero-note__line"></span><span>Feito com raízes. Partilhado com carinho.</span></div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="hero-image-wrap">
+              <img
+                class="hero-image"
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1100&q=88"
+                alt="Doces artesanais apresentados numa mesa acolhedora"
+                fetchpriority="high"
+              />
+              <div class="image-caption"><span class="caption-icon" aria-hidden="true">✳</span><span>Uma doçura<br /><strong>com história</strong></span></div>
+            </div>
+            <span class="hero-stamp" aria-label="Feito com amor e tradição">FEITO COM<br /><b>AMOR</b><br />E TRADIÇÃO</span>
+            <span class="hero-decoration hero-decoration--a" aria-hidden="true">✳</span>
+            <span class="hero-decoration hero-decoration--b" aria-hidden="true">✳</span>
+          </div>
+        </div>
+        <div class="hero-bottom container"><span>15° N · 23° W</span><span class="hero-bottom-line"></span><span>ILHAS DE CABO VERDE</span></div>
+      </section>
+
+      <section class="benefits section-pad" aria-label="O que nos distingue">
+        <div class="container benefits-grid">
+          <article class="benefit reveal"><span class="benefit-icon" aria-hidden="true">⌂</span><div><h2>Raízes cabo-verdianas</h2><p>Sabores inspirados na nossa terra e cultura.</p></div></article>
+          <article class="benefit reveal"><span class="benefit-icon" aria-hidden="true">✳</span><div><h2>Produção artesanal</h2><p>Cuidado e dedicação em cada criação.</p></div></article>
+          <article class="benefit reveal"><span class="benefit-icon" aria-hidden="true">❋</span><div><h2>Ingredientes naturais</h2><p>Quando aplicável, conforme cada produto.</p></div></article>
+          <article class="benefit reveal"><span class="benefit-icon" aria-hidden="true">♡</span><div><h2>Feito com amor</h2><p>Tradição partilhada de coração para coração.</p></div></article>
+        </div>
+      </section>
+
+      <section class="products-section section-pad" id="produtos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow eyebrow--green"><span></span> Da nossa mesa para a tua</p><h2>Descobre os nossos <em>sabores</em></h2></div>
+            <a class="text-link" href="#catalogo">Ver todos os produtos <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="catalog-tools reveal" id="catalogo">
+            <label class="search-box">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+              <span class="sr-only">Pesquisar produtos</span>
+              <input id="product-search" type="search" placeholder="Pesquisar sabores..." autocomplete="off" />
+            </label>
+            <div class="category-filters" role="group" aria-label="Filtrar por categoria" id="category-filters"></div>
+          </div>
+          <div class="product-grid" id="product-grid" aria-live="polite"></div>
+          <p class="catalog-footnote">Os produtos e preços apresentados são dados de demonstração editáveis. Confirma disponibilidade e preço antes de fazer a encomenda.</p>
+        </div>
+      </section>
+
+      <section class="story-section section-pad" id="sobre">
+        <div class="container story-grid">
+          <div class="story-visual reveal">
+            <div class="story-photo story-photo--main"><img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85" alt="Mesa com alimentos preparados e ingredientes frescos" loading="lazy" /></div>
+            <div class="story-photo story-photo--detail"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=620&q=85" alt="Pão artesanal acabado de preparar" loading="lazy" /></div>
+            <span class="story-seal" aria-hidden="true">CULTURA<br /><b>·</b><br />SABOR</span>
+          </div>
+          <div class="story-copy reveal">
+            <p class="eyebrow eyebrow--green"><span></span> A nossa história</p>
+            <h2>Mais do que Sabores,<br /><em>Uma História de Cabo Verde.</em></h2>
+            <p class="editable-note">Texto de apresentação de demonstração — substitui-o pela história verdadeira da marca.</p>
+            <p>Há sabores que nos levam de volta a casa. A Delícias e Sabores de Fatu nasce do carinho pelas tradições cabo-verdianas e da vontade de manter vivas as receitas e memórias que passam de geração em geração.</p>
+            <p>Cada criação é um convite a celebrar a nossa cultura, o saber artesanal e a alegria de partilhar. Queremos levar um pedacinho de Cabo Verde a cada mesa — com autenticidade, cuidado e muito amor.</p>
+            <a class="text-link" href="#tradicao">Conhece a nossa tradição <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="tradition-section section-pad" id="tradicao">
+        <div class="container tradition-inner reveal">
+          <div class="tradition-decoration" aria-hidden="true">✳</div>
+          <p class="eyebrow eyebrow--light"><span></span> Herança em cada detalhe</p>
+          <h2>A tradição não se guarda.<br /><em>Partilha-se.</em></h2>
+          <p>Dos encontros à volta da mesa às receitas que atravessam gerações, os sabores cabo-verdianos contam histórias. Celebramos esse património com respeito pelas raízes e espaço para novas memórias.</p>
+          <a class="button button--cream" href="#produtos">Escolher os meus sabores <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="order-section section-pad" id="encomendas">
+        <div class="container order-card reveal">
+          <div class="order-pattern" aria-hidden="true"></div>
+          <div class="order-copy">
+            <p class="eyebrow eyebrow--light"><span></span> Um sabor que aproxima</p>
+            <h2>Leva o Sabor de Cabo Verde <em>Contigo.</em></h2>
+            <p>Escolhe os teus favoritos e prepara um pedido. A equipa confirma contigo os detalhes, a disponibilidade e as opções de entrega.</p>
+            <div class="order-actions"><a class="button button--gold" href="#produtos">Fazer encomenda <span aria-hidden="true">↗</span></a><a class="button button--outline-light whatsapp-link" href="#contactos">Contactar pelo WhatsApp <span aria-hidden="true">↗</span></a></div>
+          </div>
+          <div class="order-art" aria-hidden="true"><span class="order-art__sun"></span><span class="order-art__leaf order-art__leaf--one"></span><span class="order-art__leaf order-art__leaf--two"></span><span class="order-art__leaf order-art__leaf--three"></span><span class="order-art__word">Fatu</span></div>
+        </div>
+      </section>
+
+      <section class="testimonials-section section-pad">
+        <div class="container testimonials-inner reveal">
+          <p class="eyebrow eyebrow--green"><span></span> Palavras que nos inspiram</p>
+          <h2>Cada partilha conta <em>uma história.</em></h2>
+          <div class="testimonial-empty"><span aria-hidden="true">♡</span><p>Estamos a preparar este espaço para as opiniões reais dos nossos clientes.<br />Já provaste os nossos produtos? Adoraríamos conhecer a tua experiência.</p><a class="text-link" href="#contactos">Partilha connosco <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="newsletter-section section-pad">
+        <div class="container newsletter-card reveal">
+          <div><p class="eyebrow eyebrow--light"><span></span> Novidades com sabor</p><h2>Uma pitada de Cabo Verde<br />na tua caixa de entrada.</h2><p>Quando a nossa newsletter estiver ativa, usaremos o teu email apenas para enviar novidades da marca. Não partilharemos os teus dados com terceiros.</p></div>
+          <form class="newsletter-form" id="newsletter-form">
+            <label for="newsletter-email">O teu endereço de email</label>
+            <div class="newsletter-input-wrap"><input id="newsletter-email" name="email" type="email" placeholder="nome@email.com" autocomplete="email" required /><button class="button button--gold" type="submit">Quero receber <span aria-hidden="true">↗</span></button></div>
+            <p class="form-feedback" id="newsletter-feedback" role="status" aria-live="polite"></p>
+            <small>Sem spam. Podes cancelar a qualquer momento, quando o serviço estiver disponível.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contactos">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="#inicio"><span class="brand-mark" aria-hidden="true"><span>F</span></span><span class="brand-name">Delícias <i>&amp;</i><br />Sabores de Fatu</span></a>
+          <p>Tradição, carinho e sabores cabo-verdianos à tua mesa.</p>
+          <div class="social-links" id="social-links" aria-label="Redes sociais"></div>
+        </div>
+        <div class="footer-column"><h2>Explora</h2><a href="#produtos">Os nossos produtos</a><a href="#sobre">Sobre nós</a><a href="#tradicao">A nossa tradição</a><a href="#contactos">Contactos</a></div>
+        <div class="footer-column"><h2>Informação</h2><a href="#entregas" data-info="deliveries">Entregas e levantamento</a><a href="#pagamentos" data-info="payments">Pagamentos</a><a href="#privacidade" data-info="privacy">Privacidade</a><a href="#condicoes" data-info="sales">Condições de venda</a></div>
+        <div class="footer-column footer-contact"><h2>Vamos conversar?</h2><p id="contact-email">Contactos a configurar</p><p id="contact-location">Cabo Verde</p><a class="footer-whatsapp whatsapp-link" href="#contactos">Fala connosco <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="container footer-bottom"><p>© <span id="current-year"></span> Delícias e Sabores de Fatu. Todos os direitos reservados.</p><p>Produtos, fotografias e preços de demonstração sujeitos a confirmação.</p></div>
+    </footer>
+
+    <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-dialog-title"></dialog>
+    <dialog class="info-dialog" id="info-dialog" aria-labelledby="info-dialog-title">
+      <button class="icon-button info-dialog-close" type="button" aria-label="Fechar informação">×</button>
+      <p class="eyebrow eyebrow--green"><span></span> Informação para clientes</p>
+      <h2 id="info-dialog-title"></h2>
+      <p id="info-dialog-copy"></p>
+    </dialog>
+    <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+      <div class="dialog-backdrop"></div>
+      <section class="cart-panel">
+        <header class="cart-header"><div><p class="eyebrow eyebrow--green"><span></span> A tua seleção</p><h2 id="cart-title">O teu carrinho <span class="cart-title-count">(0)</span></h2></div><button class="icon-button close-cart" type="button" aria-label="Fechar carrinho">×</button></header>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-empty" id="cart-empty"><span aria-hidden="true">✳</span><p>O teu carrinho ainda está vazio.</p><a class="text-link" href="#produtos">Descobrir produtos <span aria-hidden="true">↗</span></a></div>
+        <div class="cart-summary" id="cart-summary">
+          <div class="subtotal-row"><span>Subtotal</span><strong id="cart-subtotal">0 CVE</strong></div>
+          <p class="cart-disclaimer">Custos de entrega, disponibilidade e total final serão confirmados pela equipa. Não são processados pagamentos neste site.</p>
+          <form class="checkout-form" id="checkout-form">
+            <h3>Preparar pedido</h3>
+            <label>Nome <input name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required /></label>
+            <label>Contacto telefónico <input name="phone" type="tel" autocomplete="tel" minlength="6" maxlength="30" required /></label>
+            <label>Nota para a encomenda <textarea name="note" rows="2" maxlength="300" placeholder="Opcional"></textarea></label>
+            <p class="checkout-feedback" id="checkout-feedback" role="status" aria-live="polite"></p>
+            <button class="button button--green checkout-submit" type="submit">Enviar pedido pelo WhatsApp <span aria-hidden="true">↗</span></button>
+          </form>
+        </div>
+      </section>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
